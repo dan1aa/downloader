@@ -35,6 +35,7 @@ let server = http.createServer((req, res) => {
   }
 })
 
+//listen server
 server.listen(3000, () => {
     console.log('listened');
 })
